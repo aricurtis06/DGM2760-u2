@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(73, 63, 63);
+}
+
+header{
+    background-image: url("../images/background.jpeg");
+    height: 300px;
+    max-width: 1400px;
+    border: 5px dotted rgb(233, 182, 116) ;
+    outline: 4px solid rgb(59, 5, 5);
+    text-align: center;
+    font-size: 30;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(233, 182, 116);
+    text-shadow: 9px 2px rgb(59, 5, 5);
+}
+
+header h2{
+    color: rgb(59, 5, 5);
+    text-shadow: 4px -1px rgb(233, 182, 116);
+    background-color: rgb(233, 182, 116, 0.4);
+}
+
+#learn , #docs , #windows{
+    color: rgb(233, 182, 116);
+    background-color: rgb(59, 5, 5, 0.4);
+    text-indent: 30px;
+    font-weight: lighter;
+    font-variant: small-caps;
+    padding: 3px;
+    border-radius: 6px 6px 6px 50px;
+}
+
+ul{
+    color:rgb(212, 184, 179);
+    list-style-type:lower-roman;
+    text-indent: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#myWindow, #myDocument{
+    line-height: 130%;
+    margin-left: 19px;
+    color:rgb(212, 184, 179);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer{
+    background-color: rgb(233, 182, 116);
+    color: rgb(22, 2, 2);
+    margin: 0;
+    padding: 4px;
+    border-radius: 6px 6px 6px 5px;
+    text-indent: 16px;
+}
